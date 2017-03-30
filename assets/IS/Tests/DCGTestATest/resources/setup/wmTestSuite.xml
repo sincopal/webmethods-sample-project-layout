@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="test" name="wmTestSuite.xml">
+    <webMethodsTestCase name="straight">
+        <service folder="dcg.services" name="foo">
+            <input>
+                <file filename="resources\data\foo_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources\data\foo_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
